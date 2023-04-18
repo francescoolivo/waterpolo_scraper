@@ -1,0 +1,13 @@
+name: waterpolo_scraper
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - requests
+  - pandas
+  - selenium
+  - beautifulsoup4
+  - unidecode
+  - tqdm
+  - pyyaml
+prefix: waterpolo_scraper
