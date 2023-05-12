@@ -590,8 +590,8 @@ class Scraper(AbstractScraper, ABC):
 					'flags': flags,
 					'x': entry['shot']['locationX'],
 					'y': entry['shot']['locationY'],
-					'target_x': entry['shot']['locationX'],
-					'target_y': entry['shot']['locationY'],
+					'target_x': entry['shot']['targetX'],
+					'target_y': entry['shot']['targetY'],
 				}
 
 				actions.append(action)
@@ -613,8 +613,8 @@ class Scraper(AbstractScraper, ABC):
 						'flags': flags,
 						'x': entry['shot']['locationX'],
 						'y': entry['shot']['locationY'],
-						'target_x': entry['shot']['locationX'],
-						'target_y': entry['shot']['locationY'],
+						'target_x': entry['shot']['targetX'],
+						'target_y': entry['shot']['targetY'],
 					}
 
 					actions.append(action)
@@ -655,8 +655,8 @@ class Scraper(AbstractScraper, ABC):
 						'flags': flags,
 						'x': entry['shot']['locationX'],
 						'y': entry['shot']['locationY'],
-						'target_x': entry['shot']['locationX'],
-						'target_y': entry['shot']['locationY'],
+						'target_x': entry['shot']['targetX'],
+						'target_y': entry['shot']['targetY'],
 					}
 
 					actions.append(action)
@@ -678,8 +678,8 @@ class Scraper(AbstractScraper, ABC):
 						'flags': flags,
 						'x': entry['shot']['locationX'],
 						'y': entry['shot']['locationY'],
-						'target_x': entry['shot']['locationX'],
-						'target_y': entry['shot']['locationY'],
+						'target_x': entry['shot']['targetX'],
+						'target_y': entry['shot']['targetY'],
 					}
 
 					actions.append(action)
